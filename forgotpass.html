@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Using Tailwind CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-900">
+    <div class="flex items-center justify-center h-screen bg-gray-900">
+        <div class="bg-white p-8 rounded shadow-md w-96">
+            <h1 class="text-2xl font-bold text-center mb-6">Forgot Password</h1>
+            <form>
+                <label class="text-gray-600 mb-4 text-sm font-bold">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="border border-gray-300 rounded p-2 w-full mb-4 focus:outline" required>
+                <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-2 rounded hover:bg-blue-700 transition duration-200">Submit</button>
+            </form>
+            <p class="mt-4 text-sm text-center text-gray-600">Remembered your password? <a href="./login.html" class="text-blue-500 hover:underline">Login</a></p>
+        </div>
+    </div>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Password reset link has been sent to your email.');
+            window.location.href = './login.html'; // Redirect to Login page
+        });
+    </script>
+</div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .bg-gray-900 {
+            background-color: #1a202c;
+        }
+        .bg-white {
+            background-color: #ffffff;
+        }
+        .text-blue-500 {
+            color: #3b82f6;
+        }
+        .text-gray-600 {
+            color: #4b5563;
+        }
+    </style>
+</div>
+</body>
+</html>
+
