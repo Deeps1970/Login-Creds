@@ -54,13 +54,11 @@ The page includes social login buttons, form validation structure, and responsiv
 3. Open `index.html` in your browser.
 ```
 
-📬 Contact
+## 📬 Contact
 📧 thiagarajandeepu2007@gmail.com
-
 📞 +91 63832 63688
+🌍 Portfolio: https://deeps1970.github.io/Deeps1970/
 
-🌍 Portfolio: https://your-portfolio-url.com
-
-🙌 Credits
+## 🙌 Credits
 Built with ❤️ by Deepak B T
 UI inspired by clean authentication layouts from Dribbble and modern SaaS login forms.
