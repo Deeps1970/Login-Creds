@@ -7,6 +7,12 @@ The page includes social login buttons, form validation structure, and responsiv
 
 ---
 
+ ## 🌐 Live Demo
+
+- [MiniXPlayer](https://deeps1970.github.io/MiniXPlayer/)
+
+---
+
 ## ✨ Features
 
 - 📥 Email and password input fields  
