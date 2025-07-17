@@ -1,9 +1,9 @@
-# 🔐 Modern Login Page UI
+# 🔐 Modern Login Page UI using Tailwind CSS
 
 This is a clean, minimal, and modern **Login Page UI** built using **HTML and CSS**.  
 The page includes social login buttons, form validation structure, and responsive design for seamless user experience.
 
-> ✅ Fully static | 💡 Beginner Friendly | 💻 Desktop-first layout (partially responsive)
+> ✅ Fully static | 💡 Beginner Friendly | 💻 Desktop-first layout (partially responsive) | Responsive
 
 ---
 
@@ -22,7 +22,8 @@ The page includes social login buttons, form validation structure, and responsiv
 ## 🛠️ Tech Stack
 
 - HTML5  
-- CSS3  
+- CSS3
+- Tailwind CSS
 
 ---
 
